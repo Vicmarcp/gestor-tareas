@@ -17,3 +17,4 @@ def eliminar_tarea(lista, indice):
         return lista
     else:
         print("Índice inválido")
+        
