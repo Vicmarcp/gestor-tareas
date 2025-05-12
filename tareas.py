@@ -12,9 +12,9 @@ def listar_tareas(lista):
 
 # Funnción eliminar tarea
 def eliminar_tarea(lista, indice):
-    if 0 <= indice < len(lista):
-        lista.pop(indice)
+    if 1 <= indice <= len(lista):
+        lista.pop(indice-1)
         return lista
     else:
-        print("Índice inválido")
-        
+        print("Índice inválido.")
+        return lista
